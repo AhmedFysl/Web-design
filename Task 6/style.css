@@ -1,0 +1,409 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.bg-img{
+  background-image: url('img/1.jpeg');
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+}
+a{
+    text-decoration:none;
+    color:inherit
+}
+ul{
+    list-style:none
+}
+.container{
+    width: 80%;
+    margin:auto
+}
+.d-flex{
+    display:flex
+}
+.justify-content-between{
+    justify-content:space-between
+}
+.align-items-center{
+    align-items:center
+}
+nav{
+    padding:16px 0
+}
+.nav-logo{
+    font-weight:900;
+    color:#1a1a2e;
+}
+.nav-links{
+    gap:5rem
+}
+.nav-links a,.nav-join{
+    color:white;
+    font-size:.88rem
+}
+.but-white{
+    background:white;
+    color:#1a1a1a;
+    padding:10px 22px;
+    border:none;
+}
+.but-get{
+    display: block;
+    padding: 7px;
+    border-radius: 20px;
+}
+.logo , .nav-links{
+    color: white;
+}
+.text{
+    color: white;
+}
+.h1-first h1{
+    width: 25%;
+}
+.h1-first p{
+    width: 50%;
+}
+#none{
+    display: none;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+@media (max-width: 800px) {
+    #none {
+    display: block;
+    }
+    .nav-links {
+        display: none;
+    }
+    .but-get {
+        display: none;
+    }
+    .h1-first h1 {
+        width: 90%;
+        font-size: 2rem;
+    }
+    .h1-first p {
+        width: 90%;
+    }
+}
+
+
+.shop{
+    display: block;
+    color: white;
+    border: white 1px solid;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+
+.shop-cat{
+    padding: 3%;
+}
+.text{
+    margin-top: 8%;
+}
+.featured-Search{
+    justify-content: space-between;
+    padding: 4%;
+}
+.search{
+    background:rgb(203, 197, 197);
+    border-radius: 22px;
+    padding:10px 22px;
+}
+.search .i{
+    color:rgb(203, 197, 197);
+}
+.search .search-bar{
+    background:rgb(203, 197, 197);
+    border: none;
+}
+.search .search-bar:focus{
+    outline: none;
+}
+.search .search-bar::placeholder{
+    color: #1a1a1a;
+}
+.black{
+    color: black;
+    gap: 4rem;
+    justify-content:center;
+}
+.pic{
+    justify-content: space-between;
+}
+.card-shop{
+    width: 30%;
+    position: relative;
+}
+.card-shop:hover .cards-price{
+    opacity: 1;
+}
+.card-shop img{
+    width: 100%;
+}
+.view-more{
+    justify-content: right;
+}
+.cards-price{
+    color: white;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color:#1018288A;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+
+.cards-price h3{
+    margin-top: 40%;
+    text-align: center;
+}
+
+
+.cards-price p{
+    text-align: center;
+}
+.card-bottom{
+    text-align: center;
+    margin-top: 39%;
+}
+.card-bottom .amount{
+    background-color: #101828;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+.card-bottom .cart{
+    background-color: #101828;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+.tabs li{
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: transparent;
+    transition: all 0.5s;
+}
+.tabs li:hover{
+    background-color: #063166;
+    color: white;
+}
+.text2 h1{
+    margin-bottom: 2%;
+}
+.text2 p{
+    margin-bottom: 2%;
+}
+.blog-text{
+    gap: 100px;
+}
+
+/*Media 2*/
+@media (max-width: 800px) {
+    .search{
+        background: transparent;
+    }
+    .search-bar{
+        display: none;
+    }
+    .featured-Search h1{
+        font-size: 1rem;
+    }
+    .tabs .black{
+        gap: 1rem;
+    }
+    .tabs li{
+        padding: 8px;
+        font-size: 0.85rem;;
+    }
+    .pic {
+        flex-direction: column;
+    }
+    .card-shop {
+        width: 100%;
+    }
+    
+}
+
+.Read{
+    background-color: #233250;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+.img2{
+    height: 5%;
+    justify-content: right;
+}
+
+
+@media (max-width: 910px) {
+    .Blog-page{
+        display:none;
+    }
+
+}
+
+/*contact us*/
+.blue{
+    background-color: #101828;
+    padding: 2%;
+}
+
+.contact-form{
+    background:white;
+    color:black;
+    width:50%;
+    padding: 35px;
+    border-radius: 20px;
+}
+.size-box{
+    padding: 4%;
+    width: 100%;
+}
+.f-l-name div{
+    gap: 3rem;
+    width: 100%;
+}
+.size-box-email{
+    padding: 2%;
+    width: 100%;
+    resize: none;
+}
+.contact-info , .contact-us{
+    color: white;
+}
+.contact-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.info-box{
+    width: 45%;   
+}
+.contact2{
+    gap: 2rem;
+}
+.Send-buttom{
+    background-color: #101828;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+}
+section .container .contact2  textarea , input{
+    border-radius: 5px;
+}
+
+/*Media 3 and 4*/
+@media (max-width: 800px){
+    .contact2{
+        flex-direction: column-reverse;
+    }  
+    .contact-info{
+        width: 100%;
+    } 
+    .contact-form{
+        width: 100%;
+    }
+}
+
+/*join us*/
+
+.join-us1{
+    padding: 3% 0%;
+    color: white;
+}
+.join-us1 .container{
+    justify-content: space-between;
+}
+.enter-email input{
+    padding: 4px;
+    border-radius: 8px;
+    
+}
+.enter-email button{
+    padding: 4px;
+    border-radius: 8px;
+    
+}
+
+@media (max-width: 800px) {
+        .join-us1 .container{
+    flex-direction: column;
+    }
+    .enter-email input{
+    width: 100%;
+}
+.enter-email button{
+    width: 100%; 
+}
+}
+
+/*words*/
+.all-words{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.word .container{
+    display: flex;
+    gap: 2rem;
+}
+.all-words a{
+    color: white;
+    display: block;
+    margin-bottom: 8px;
+}
+.all-words .words h4{
+    margin-bottom: 20%;
+}
+.word .container .logo i{
+    margin-bottom: 7%;
+}
+
+@media (max-width: 800px) {
+    .word .container{
+        flex-direction: column;
+    }
+    .all-words{
+        flex-wrap: wrap;
+        
+    }
+    .words{
+        width: 45%;
+        margin-bottom: 8%;
+    }
+}
+
+/*Icons*/
+
+.icons .container{
+    padding: 2%;
+    color: white;
+    justify-content: space-between;
+}
+.icons1 i{
+    margin-right: 10px;
+}
+@media (max-width: 800px) {
+        .icons .container{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        }
+}
