@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+    padding-top: 150px;
+}
+.cards{
+    display: inline-block;
+    position: relative;
+    width: 260px;
+    height: 260px;
+    margin: 0 40px;
+}
+.pic{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: transform 0.4s ease;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    color: black;
+    background-color: teal;
+    height: 100%;
+    padding-top: 170px;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+.cards:hover .pic{
+    transform: translate(-25px, -25px);
+}
+.cards:hover .text{
+    transform: translate(40px, 40px);
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{  
+    display: flex;
+    overflow: hidden;
+}
+.road{
+    position: relative;
+    width: 100%; 
+    height: 400px; 
+    background-image: url('street.jpeg');
+    background-position: center;
+}
+.car{
+    position: absolute;
+    width: 150px;
+    bottom: 35%; 
+    animation: moveCar 3s linear infinite; 
+}
+@keyframes moveCar{
+    0% {
+        left: 0%;
+    }
+    100%{
+        left: 100%;
+    }
+}
