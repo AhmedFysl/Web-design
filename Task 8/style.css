@@ -1,0 +1,111 @@
+.bk-img{
+    background-image: url('img/1.jpeg');
+    height: 100vh;
+    }
+.bk-img .text{
+    margin: 10% auto 4%;
+    width: 72%;
+}
+.bk-img h1{
+    font-size: 400%;
+}
+.bk-img .buttom a{
+    padding: 1.5%;
+    width: 10%;
+    margin: 1%;
+}
+
+.box{
+    width: 60%;
+}
+.custom-card {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    padding: 2rem;
+    transition: background-color 0.3s ease;
+}
+
+.hover-highlight:hover{
+    background-color: rgb(var(--bs-success-rgb));
+}
+
+.hover-highlight:hover h4,
+.hover-highlight:hover h5,
+.hover-highlight:hover p,
+.hover-highlight:hover small,
+.hover-highlight:hover .text-secondary,
+.hover-highlight:hover{
+    color: white !important;
+}
+
+.hover-highlight:hover .text-green,
+.hover-highlight:hover .card-highlight-text{
+    color: white !important;
+}
+
+.hover-highlight:hover img{
+    filter: brightness(0) invert(1);
+}
+
+.text-green{
+    color: rgb(var(--bs-success-rgb));
+}
+
+.custom-card .rounded-circle.position-absolute {
+    width: 70px;
+    height: 70px;
+    top: 6rem;
+    object-fit: cover;
+    background-color: #d1d5db;
+}
+
+.hover-highlight:hover .rounded-circle.position-absolute {
+    filter: none;
+}
+
+
+.form-control::placeholder {
+    color: white;
+}
+.accordion-item.hover-highlight:hover .accordion-button {
+    background-color: rgb(var(--bs-success-rgb));
+    color: white;
+}
+.accordion-item.hover-highlight:hover .accordion-button::after {
+    filter: brightness(0) invert(1);
+}
+.accordion-button:not(.collapsed) {
+    background-color: rgb(var(--bs-success-rgb));
+    color: white;
+}
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0) invert(1);
+}
+
+@media (min-width: 992px) {
+    .mt-lg-6 {
+        margin-top: 6rem;
+    }
+}
+
+.pricing-card.hover-highlight:hover {
+    background-color: rgb(var(--bs-success-rgb));
+}
+.pricing-card.hover-highlight:hover .text-green,
+.pricing-card.hover-highlight:hover .border-bottom {
+    color: white;
+}
+.pricing-card.hover-highlight:hover li {
+    border-color: rgba(255, 255, 255, 0.25) !important;
+}
+.pricing-card.hover-highlight:hover h4,
+.pricing-card.hover-highlight:hover p,
+.pricing-card.hover-highlight:hover span {
+    color: white;
+}
+.pricing-card.hover-highlight:hover .btn-success {
+    background-color: white;
+    border-color: white;
+    color: rgb(var(--bs-success-rgb));
+}
